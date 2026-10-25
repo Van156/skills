@@ -1,0 +1,14 @@
+{
+  "name": "vanskills",
+  "owner": {
+    "name": "vandev"
+  },
+  "description": "vandev's personal skills as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "vanskills",
+      "source": "./",
+      "description": "Personal, agent-agnostic skills: why, create-verification-skill, maintain-verification-skill."
+    }
+  ]
+}

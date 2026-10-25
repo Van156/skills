@@ -14,6 +14,19 @@ Each skill lives in `skills/<name>/SKILL.md` and follows the [Agent Skills](http
 
 ## Install
 
+### Claude Code (plugin)
+
+The repo is a Claude Code plugin and marketplace. Skills load namespaced as `vanskills:<skill>`, for example `/vanskills:why`.
+
+```sh
+claude plugin marketplace add /path/to/vanskills
+claude plugin install vanskills@vanskills
+```
+
+After changing a skill, bump `version` in `.claude-plugin/plugin.json`, commit, run `claude plugin marketplace update vanskills && claude plugin update vanskills@vanskills`, and restart Claude Code.
+
+### Other agents
+
 Symlink or copy a skill folder into your agent's skills directory, for example:
 
 ```sh
