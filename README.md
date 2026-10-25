@@ -1,0 +1,21 @@
+# vanskills
+
+Personal, agent-agnostic skills for coding agents (Claude Code, Codex, OpenCode, and others), inspired by Matt Pocock's skills and pstack.
+
+Each skill lives in `skills/<name>/SKILL.md` and follows the [Agent Skills](https://agentskills.io) format: YAML frontmatter with `name` and `description`, plus optional `references/`.
+
+## Skills
+
+| Skill | Use it for |
+|-------|-----------|
+| [`why`](skills/why/SKILL.md) | Why code is shaped the way it is: design rationale, tradeoffs, regressions, data-backed thresholds. Cited and confidence-weighted. |
+
+## Install
+
+Symlink or copy a skill folder into your agent's skills directory, for example:
+
+```sh
+ln -s "$PWD/skills/why" ~/.claude/skills/why
+```
+
+See [NOTICE.md](NOTICE.md) for attribution of adapted skills.
