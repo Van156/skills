@@ -8,6 +8,7 @@ Each skill lives in `skills/<name>/SKILL.md` and follows the [Agent Skills](http
 
 | Skill | Use it for |
 |-------|-----------|
+| [`create-verification-skill`](skills/create-verification-skill/SKILL.md) | Generate a project-local `verify-<app>` skill that launches the real app, drives it like a user, and captures evidence. |
 | [`why`](skills/why/SKILL.md) | Why code is shaped the way it is: design rationale, tradeoffs, regressions, data-backed thresholds. Cited and confidence-weighted. |
 
 ## Install
