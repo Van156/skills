@@ -8,7 +8,7 @@
     {
       "name": "vanskills",
       "source": "./",
-      "description": "Personal, agent-agnostic skills: why, create-verification-skill, maintain-verification-skill."
+      "description": "Personal, agent-agnostic skills: why, how, teach, create-verification-skill, maintain-verification-skill, how-to-test, pr, grilling, grill-me, grill-with-docs, domain-modeling, codebase-design, improve-codebase-architecture."
     }
   ]
 }

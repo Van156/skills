@@ -1,6 +1,6 @@
 {
   "name": "vanskills",
-  "version": "0.1.1",
+  "version": "0.5.0",
   "description": "Personal, agent-agnostic skills for coding agents, adapted from Matt Pocock's skills and pstack.",
   "author": {
     "name": "vandev"
@@ -8,7 +8,17 @@
   "license": "MIT",
   "skills": [
     "./skills/why",
+    "./skills/how",
+    "./skills/teach",
     "./skills/create-verification-skill",
-    "./skills/maintain-verification-skill"
+    "./skills/maintain-verification-skill",
+    "./skills/how-to-test",
+    "./skills/pr",
+    "./skills/grilling",
+    "./skills/grill-me",
+    "./skills/grill-with-docs",
+    "./skills/domain-modeling",
+    "./skills/codebase-design",
+    "./skills/improve-codebase-architecture"
   ]
 }

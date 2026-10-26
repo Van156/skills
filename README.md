@@ -8,8 +8,18 @@ Each skill lives in `skills/<name>/SKILL.md` and follows the [Agent Skills](http
 
 | Skill | Use it for |
 |-------|-----------|
+| [`codebase-design`](skills/codebase-design/SKILL.md) | Shared vocabulary for designing deep modules: module, interface, depth, seam, adapter, leverage, locality, plus the deletion test and design-it-twice. |
+| [`improve-codebase-architecture`](skills/improve-codebase-architecture/SKILL.md) | Scan for shallow modules, present deepening opportunities as a visual HTML report, then grill through the one you pick. Manual only. |
+| [`domain-modeling`](skills/domain-modeling/SKILL.md) | Build and sharpen the project's domain model while designing: challenge terms, invent edge cases, record glossary entries and ADRs. |
+| [`grill-me`](skills/grill-me/SKILL.md) | Manual entry point for `grilling`. |
+| [`grill-with-docs`](skills/grill-with-docs/SKILL.md) | `grilling` plus `domain-modeling`: a relentless interview that writes ADRs and the glossary as decisions settle. Manual only. |
+| [`grilling`](skills/grilling/SKILL.md) | Stress-test a plan, decision, or idea through rounds of numbered questions, each with a recommended answer, until the design tree is fully settled. |
 | [`create-verification-skill`](skills/create-verification-skill/SKILL.md) | Generate a project-local `verify-<app>` skill that launches the real app, drives it like a user, and captures evidence. |
 | [`maintain-verification-skill`](skills/maintain-verification-skill/SKILL.md) | Keep a `verify-<app>` skill and its feature map honest: read every feature from source, drive every feature live, ship at most one PR of proven fixes. |
+| [`how`](skills/how/SKILL.md) | How code works: subsystem architecture, runtime flow, and where things should live. Use `why` for motivation. |
+| [`teach`](skills/teach/SKILL.md) | Explain a body of work so a person actually understands it, combining `how` and `why` into one plain, paced explanation. |
+| [`how-to-test`](skills/how-to-test/SKILL.md) | Open the running app on the current change and hand the human a step-by-step guide to test it: where to go, what to do, what they should see. |
+| [`pr`](skills/pr/SKILL.md) | Write a PR body: a visual summary, before/after evidence, and merge danger (one-way or two-way door, blast radius). |
 | [`why`](skills/why/SKILL.md) | Why code is shaped the way it is: design rationale, tradeoffs, regressions, data-backed thresholds. Cited and confidence-weighted. |
 
 ## Install
