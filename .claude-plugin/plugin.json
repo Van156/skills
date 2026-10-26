@@ -1,6 +1,6 @@
 {
   "name": "vanskills",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Personal, agent-agnostic skills for coding agents, adapted from Matt Pocock's skills and pstack.",
   "author": {
     "name": "vandev"
@@ -19,6 +19,7 @@
     "./skills/grill-with-docs",
     "./skills/domain-modeling",
     "./skills/codebase-design",
-    "./skills/improve-codebase-architecture"
+    "./skills/improve-codebase-architecture",
+    "./skills/skill-creator"
   ]
 }

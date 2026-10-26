@@ -20,6 +20,7 @@ Each skill lives in `skills/<name>/SKILL.md` and follows the [Agent Skills](http
 | [`teach`](skills/teach/SKILL.md) | Explain a body of work so a person actually understands it, combining `how` and `why` into one plain, paced explanation. |
 | [`how-to-test`](skills/how-to-test/SKILL.md) | Open the running app on the current change and hand the human a step-by-step guide to test it: where to go, what to do, what they should see. |
 | [`pr`](skills/pr/SKILL.md) | Write a PR body: a visual summary, before/after evidence, and merge danger (one-way or two-way door, blast radius). |
+| [`skill-creator`](skills/skill-creator/SKILL.md) | Create or revise an agent skill: earn it, pick invocation, write the description as a context pointer, write and prune the body, validate. Carries the `writing-for-agents` reference. |
 | [`why`](skills/why/SKILL.md) | Why code is shaped the way it is: design rationale, tradeoffs, regressions, data-backed thresholds. Cited and confidence-weighted. |
 
 ## Install

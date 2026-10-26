@@ -14,6 +14,7 @@ Some skills in this repository are adapted from MIT-licensed work:
 | `improve-codebase-architecture` | [mattpocock/skills](https://github.com/mattpocock/skills) `skills/engineering/improve-codebase-architecture` | Copyright (c) 2026 Matt Pocock |
 | `maintain-verification-skill` | [t3-pstack](https://github.com/chhoumann/t3-pstack) `plugins/pstack/skills/maintain-verification-skill` | Copyright (c) 2026 Lauren Tan |
 | `pr` | [mattpocock/skills](https://github.com/mattpocock/skills) `skills/engineering/pr` | Copyright (c) 2026 Matt Pocock |
+| `skill-creator` | [mattpocock/skills](https://github.com/mattpocock/skills) `skills/productivity/writing-for-agents` | Copyright (c) 2026 Matt Pocock |
 | `teach` | [t3-pstack](https://github.com/chhoumann/t3-pstack) `plugins/pstack/skills/teach` | Copyright (c) 2026 Lauren Tan |
 | `why` | [t3-pstack](https://github.com/chhoumann/t3-pstack) `plugins/pstack/skills/why` | Copyright (c) 2026 Lauren Tan |
 
@@ -26,6 +27,8 @@ Changes to `maintain-verification-skill`: generalized the project skills directo
 Changes to `how`: removed the dependency on T3 Code orchestration (`delegate_task`, the per-machine model sheet, and the `poteto-mode` skill) so the skill runs in any coding agent, with a sequential fallback when subagents are unavailable, and replaced `disable-model-invocation` with `license`. The explainer reference names file tools generically instead of Claude Code's `Read`, `Grep`, and `Glob`.
 
 Changes to `teach`: removed the dependency on the `unslop` skill (its plain-English rules are kept inline), added a fallback for runtimes that can't invoke `how` or `why` as skills, made the image-generation tool optional, and replaced `disable-model-invocation` with `license`.
+
+Changes to `skill-creator`: built on `writing-for-agents`. Its body and `SKILL-MECHANICS.md` are kept as `references/writing-for-agents.md` and `references/skill-mechanics.md` with links updated and a Codex invocation note added; `SKILL.md` is new and adds the creation workflow, and `license` replaces `disable-model-invocation`.
 
 Changes to `grill-me` and `grill-with-docs`: replaced the Claude Code-specific "Call the Skill tool" instruction with agent-agnostic wording. `grilling` and `domain-modeling` are unchanged.
 
